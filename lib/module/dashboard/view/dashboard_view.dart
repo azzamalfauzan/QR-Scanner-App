@@ -91,33 +91,73 @@ class DashboardView extends StatefulWidget {
                       ),
                       QDropdownField(
                         label: "From",
-                        value: "Pati",
+                        value: "-",
                         // validator: Validator.required,
                         items: const [
                           {
-                            "label": "Pati",
-                            "value": "Pati",
-                          },
-                          {
                             "label": "Kudus",
                             "value": "Kudus",
-                          }
+                          },
+                          {
+                            "label": "Yogyakarta",
+                            "value": "Yogyakarta",
+                          },
+                          {
+                            "label": "Surabaya",
+                            "value": "Surabaya",
+                          },
+                          {
+                            "label": "Jakarta",
+                            "value": "Jakarta",
+                          },
+                          {
+                            "label": "Bandung",
+                            "value": "Bandung",
+                          },
+                          {
+                            "label": "Solo",
+                            "value": "Solo",
+                          },
+                          {
+                            "label": "Bali",
+                            "value": "Bali",
+                          },
                         ],
                         onChanged: (value, label) {},
                       ),
                       QDropdownField(
                         label: "To",
-                        value: "Kudus",
+                        value: "-",
                         // validator: Validator.required,
                         items: const [
                           {
-                            "label": "Pati",
-                            "value": "Pati",
-                          },
-                          {
                             "label": "Kudus",
                             "value": "Kudus",
-                          }
+                          },
+                          {
+                            "label": "Yogyakarta",
+                            "value": "Yogyakarta",
+                          },
+                          {
+                            "label": "Surabaya",
+                            "value": "Surabaya",
+                          },
+                          {
+                            "label": "Jakarta",
+                            "value": "Jakarta",
+                          },
+                          {
+                            "label": "Bandung",
+                            "value": "Bandung",
+                          },
+                          {
+                            "label": "Solo",
+                            "value": "Solo",
+                          },
+                          {
+                            "label": "Bali",
+                            "value": "Bali",
+                          },
                         ],
                         onChanged: (value, label) {},
                       ),
@@ -175,7 +215,7 @@ class DashboardView extends StatefulWidget {
                                   decoration: BoxDecoration(
                                     color: (controller.qtyAdult == 0)
                                         ? const Color(0xffdedede)
-                                        : const Color(0xfffdc620),
+                                        : const Color(0xFF42A5F5),
                                   ),
                                   child: const Icon(
                                     Icons.remove,
@@ -198,7 +238,7 @@ class DashboardView extends StatefulWidget {
                                     left: 20.0,
                                   ),
                                   decoration: const BoxDecoration(
-                                    color: Color(0xfffdc620),
+                                    color: Color(0xFF42A5F5),
                                   ),
                                   child: const Icon(
                                     Icons.add,
@@ -220,7 +260,7 @@ class DashboardView extends StatefulWidget {
                                   decoration: BoxDecoration(
                                     color: (controller.qtyChild == 0)
                                         ? const Color(0xffdedede)
-                                        : const Color(0xfffdc620),
+                                        : const Color(0xFF42A5F5),
                                   ),
                                   child: const Icon(
                                     Icons.remove,
@@ -243,7 +283,7 @@ class DashboardView extends StatefulWidget {
                                     left: 20.0,
                                   ),
                                   decoration: const BoxDecoration(
-                                    color: Color(0xfffdc620),
+                                    color: Color(0xFF42A5F5),
                                   ),
                                   child: const Icon(
                                     Icons.add,
@@ -286,7 +326,7 @@ class DashboardView extends StatefulWidget {
                         width: MediaQuery.of(context).size.width,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: const Color(0xfffdc620),
+                            backgroundColor: const Color(0xFF42A5F5),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(12),
                             ),

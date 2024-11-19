@@ -362,7 +362,7 @@ class BookingDetailView extends StatefulWidget {
               width: MediaQuery.of(context).size.width,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xfffdc620),
+                  backgroundColor: const Color(0xFF42A5F5),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
